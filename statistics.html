@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATLAS Statistics | Project Portfolio</title>
+    <meta
+      name="description"
+      content="ATLAS Statistics team portfolio for showcasing data analysis and dashboard projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"></div>
+    <header class="site-header">
+      <nav class="nav shell">
+        <div class="nav-left">
+          <a class="brand" href="./index.html">
+            <span class="brand-mark">ATLAS</span>
+            <span class="brand-sub">Statistics Team</span>
+          </a>
+          <div class="nav-tabs" aria-label="Site navigation">
+            <a class="nav-tab" href="./index.html">Home</a>
+            <a class="nav-tab active" href="./statistics.html">Statistics Team</a>
+          </div>
+        </div>
+        <a class="nav-button" href="#projects">Explore Projects</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell reveal">
+        <p class="eyebrow">Association of the Liberal Arts and Sciences</p>
+        <h1>
+          Showcasing the work of
+          <span>ATLAS Statistics</span>
+        </h1>
+        <p class="hero-copy">
+          This portfolio highlights data analysis dashboards and research
+          projects built by our team each semester. It is designed to grow as
+          new project cohorts are published.
+        </p>
+        <div class="hero-actions">
+          <a class="cta cta-primary" href="#projects">View Project Gallery</a>
+          <a class="cta cta-secondary" href="#team">About the Team</a>
+        </div>
+        <ul class="impact-strip" id="impact-strip">
+          <li>
+            <strong id="project-count">0</strong>
+            <span>Projects Featured</span>
+          </li>
+          <li>
+            <strong id="semester-count">0</strong>
+            <span>Semesters Archived</span>
+          </li>
+          <li>
+            <strong id="tool-count">0</strong>
+            <span>Tools Used</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="teams shell reveal" id="team">
+        <div class="section-heading">
+          <p class="eyebrow">About The Team</p>
+          <h2>A cross-disciplinary team focused on practical data analytics.</h2>
+        </div>
+        <p>
+          Our Statistics team includes students from diverse majors, including
+          Statistics, IS+DS, and Marketing, who all share the goal of
+          developing strong data analytical skills. We build hands-on projects
+          throughout the year and also participate in the annual datathon
+          hosted by the University of Illinois Statistics Department.
+        </p>
+      </section>
+
+      <section class="projects shell reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Project Gallery</p>
+          <h2>Data stories, models, and dashboards by semester</h2>
+        </div>
+
+        <div class="toolbar">
+          <div class="filters" id="filters" aria-label="Project categories"></div>
+          <label class="search">
+            <span class="sr-only">Search projects</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Search by title, tools, or tags..."
+            />
+          </label>
+        </div>
+
+        <div class="project-grid" id="project-grid"></div>
+        <p class="empty-state hidden" id="empty-state">
+          No projects match this filter yet. Try another category or update the
+          search.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <p>ATLAS Statistics Team Portfolio</p>
+    </footer>
+
+    <script src="./projects.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
