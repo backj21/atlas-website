@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="ATLAS logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#465585"/>
+      <stop offset="100%" stop-color="#3d4a77"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="square">
+    <path d="M210 735V585"/>
+    <path d="M210 735H380"/>
+    <path d="M790 520H960"/>
+    <path d="M960 520V690"/>
+  </g>
+  <text
+    x="600"
+    y="660"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-size="170"
+    font-family="Manrope, Sora, Arial, sans-serif"
+    font-weight="800"
+    letter-spacing="10"
+  >
+    ATLAS
+  </text>
+</svg>
